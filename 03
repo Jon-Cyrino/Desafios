@@ -1,0 +1,12 @@
+gastos_rodolfinho = [300, 500, 200, 800]
+gastos_rodolfao = [200, 400, 500, 700]
+
+total_rodolfinho = sum(gastos_rodolfinho)
+total_rodolfao = sum(gastos_rodolfao)
+
+if total_rodolfinho > total_rodolfao:
+    print("João (Rodolfinho) gastou mais dinheiro.")
+elif total_rodolfinho < total_rodolfao:
+    print("Pedro (Rodolfão) gastou mais dinheiro.")
+else:
+    print("Ambos gastaram a mesma quantia.")
